@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<link rel="stylesheet" href="style.css">
-	<!-- Menu button -->
+	<!-- menu button -->
 	<button type="button" onclick="document.location='index.html'" class="backmenu-button">menu</button>
 </head>
 
@@ -15,7 +15,7 @@
 	$file_path = 'demo.aiml'; //AIML file
 	if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['aiml_content'])) {
 		$aiml_content = $_POST['aiml_content'];
-	file_put_contents($file_path, $aiml_content);
+		file_put_contents($file_path, $aiml_content);
 }
 ?>
 
@@ -29,7 +29,7 @@
 </form>
 
 <a href="demo.aiml" download="demo.aiml"> <!-- AIML file -->
-<button class="download-button">Download AIML 📥</button>
+	<button class="download-button">Download AIML 📥</button>
 </a>
 
 </body>
