@@ -1,0 +1,270 @@
+/*ITS APP*/
+body {
+background-color: #111;
+}
+
+.container {
+margin: 0 auto;
+padding: 1vw;
+}
+
+.plugins{
+font-size: 4vw;
+font-family: monospace;
+color: white;
+margin: 3vw auto;
+padding: 1vw;
+text-shadow: 0vw 0vw 2vw rgba(255,255,255,0.5);
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+input {
+color: white;
+font-family: monospace;
+font-size: 3vw;
+background-color: rgba(0, 0, 0, 0.7);
+margin-bottom: 2vw;
+padding: 3vw;
+border-radius: 4vw;
+border: 0.5vw ;
+border-style: solid;
+box-shadow: 0 0 2vw 0.01vw #444;
+text-shadow: 0vw 0vw 2vw rgba(255,255,255,0.5);
+}
+
+#random-responses {
+display: flex;
+flex-direction: column;
+margin-bottom: 1vw;
+}
+
+
+.variations-button {
+font-size: 3.5vw;
+font-family: monospace;
+background-color: black;
+color: white;
+margin-top: 2vw;
+margin-bottom: 2vw;
+padding: 3vw;
+border-radius: 4vw;
+border: 0vw ;
+border-color: black;
+cursor: pointer;
+text-shadow: 0vw 0vw 1vw rgba(255,255,255,0.3);
+/*These tags are needed so that the text of the buttons does not stand out
+I don't know what browsers the miniapp work on
+*/
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.variations-button:active {
+background-color: rgba(0, 0, 0, 0.2);
+transition: 0.02s linear;
+}
+
+.response-item input {
+font-family: monospace;
+color: #fff;
+background-color: rgba(0, 0, 0, 0.7);
+width: 70vw;
+margin-bottom: 1vw;
+padding: 3vw;
+border-radius: 4vw;
+float: left;
+}
+
+.response-item button {
+font-size: 3vw;
+font-family: monospace;
+color: #e31812;
+background-color: rgba(0, 0, 0, 0.7);
+width: auto;
+margin-bottom: 1vw;
+margin-left: 4vw;
+padding: 3vw;
+border-radius: 5vw;
+border: 0vw ;
+float: left;
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.response-item button:active {
+background-color: rgba(0, 0, 0, 0.2);
+transition: 0.02s linear;
+}
+
+.save-button {
+font-size: 3.2vw;
+font-family: monospace;
+color: #40d500;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 3vw;
+/*margin-bottom: 3vw;*/
+border-radius: 4vw;
+border: 0.5vw ;
+border-style: solid;
+cursor: pointer;
+box-shadow: 0 0 2vw 0.01vw #33FF00,
+inset 0 0 1vw 0.01vw #33FF00;
+text-shadow: 0vw 0vw 2vw rgba(255,255,255,0.5);
+transition: 0.08s linear;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.save-button:active {
+color: white;
+background-color: #40d500;
+box-shadow: 0 0 2vw 0.01vw #33FF00,
+inset 0 0 1vw 0.01vw #33FF00;
+transition: 0.08s linear;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.menu-button {
+font-size: 2.8vw;
+font-family: monospace;
+background-color: black;
+color: white;
+margin-bottom: 1vw;
+padding: 2vw;
+border-radius: 4vw;
+border: 0vw ;
+border-color: black;
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+#template:disabled {
+color: rgba(0, 0, 0, 0);
+background-color: rgba(0, 0, 0, 0.3);
+box-shadow: 0 0 2vw 0.01vw rgba(255,255,255,0.0);
+text-shadow: 0vw 0vw 1vw rgba(255,255,255,0.0);
+transition: 0.08s linear;
+}
+
+/*ITS LOGCONSOLE!*/
+
+.log-table {
+border-collapse: collapse;
+margin-bottom: 2vw;
+display: flex;
+flex-direction: column;
+margin-top: 3vw;
+}
+
+.log-table td {
+padding: 1vw;
+border-bottom: 0.1vw solid white;
+text-align: center;
+font-family: monospace;
+font-size: 3vw;
+color: white;
+}
+
+.log-table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*ITS BACK TO MENU BUTTON!*/
+.backmenu-button {
+font-size: 3.2vw;
+font-family: monospace;
+background-color: black;
+color: white;
+padding: 3vw;
+border-radius: 4vw;
+cursor: pointer;
+border: 1vw ;
+border-color: white;
+margin-bottom: 1vw;
+width: 100%;
+box-shadow: 0 0 4vw 0.05vw #222;
+text-shadow: 0vw 0vw 2vw rgba(255,255,255,0.5);
+}
+
+/*ITS AIML EDITOR!*/
+
+/*
+.save_editor-button {
+font-size: 3.2vw;
+font-family: monospace;
+color: #40d500;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 3vw;
+margin-bottom: 1vw;
+border-radius: 4vw;
+border: 0.5vw ;
+border-style: solid;
+cursor: pointer;
+box-shadow: 0 0 2vw 0.01vw #33FF00,
+inset 0 0 1vw 0.01vw #33FF00;
+text-shadow: 0vw 0vw 2vw rgba(255,255,255,0.5);
+}
+*/
+.download-button {
+font-size: 3.2vw;
+font-family: monospace;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 2vw;
+width: 100%;
+border-radius: 4vw;
+border: 0vw ;
+border-style: solid;
+cursor: pointer;
+
+text-shadow: 0vw 0vw 2vw rgba(255,255,255,0.5);
+}
+
+.editor {
+font-size: 3vw;
+font-family: monospace;
+width: 100%;
+height: 70vh;
+border: 0.5vw ;
+border-style: solid;
+padding: 2vw;
+margin-top: 1vw;
+margin-bottom: 2vw;
+color: white;
+background-color: black;
+white-space: pre-wrap;
+word-wrap: break-word;
+box-sizing: border-box;
+overflow-y: auto;
+border-radius: 4vw;
+resize: none;
+text-shadow: 0vw 0vw 2vw rgba(255,255,255,0.5);
+box-shadow: 0 0 2vw 0.01vw #444;
+}

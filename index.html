@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form action="save_aiml.php" method="post">
+			<input type="text" id="pattern" name="pattern" placeholder="Enter pattern 🖋">
+			<input type="text" id="template" name="template" placeholder="Enter template 🖋">
+				<div id="random-responses">
+				<button type="button" class="variations-button" onclick="addRandomResponse()"> + Add response variations + </button>
+				</div>
+			<button type="submit" class="save-button">Save 💾</button>
+			<div class="plugins">plugins 🧩</div> <!-- add your button for the plugin, please add an emoji in the plugin name 🙃 --> 
+			<button type="button" onclick="document.location='log.php'" class="menu-button">LogConsole 📟</button>
+			<button type="button" onclick="document.location='aiml_editor.php'" class="menu-button">Edit AIML file 📝</button>
+			<button type="button" onclick="document.location='aiml_editor.php'" class="menu-button">Edit Bot 🤖</button>
+		</form>
+	</div>
+    
+	<script>
+//add <li> tags
+function addRandomResponse() {
+	var randomResponsesList = document.getElementById('random-responses');
+	var newResponseItem = document.createElement('div');
+	newResponseItem.classList.add('response-item');
+	newResponseItem.innerHTML = '<input type="text" placeholder="Enter response 🖋" name="random_response[]">' +
+		'<button type="button" class="remove-button" onclick="removeResponse(this)">🗑️</button>';
+	randomResponsesList.appendChild(newResponseItem);
+	// disable the template field
+	document.getElementById('template').disabled = true;
+}
+//delete <li> tags
+function removeResponse(button) {
+	var responseItem = button.parentElement;
+	if (responseItem.parentElement.id === 'random-responses') {
+		responseItem.remove();
+	} else {
+		alert('hmhmh its error');
+	}
+	// enable the template field if there are no random responses
+	var randomResponses = document.querySelectorAll('#random-responses .response-item');
+	if (randomResponses.length === 0) {
+		document.getElementById('template').disabled = false;
+	}
+}
+	</script>
+</body>
+</html>
