@@ -43,9 +43,9 @@ To create a MiniApp, you need to create a new application in the telegram bot [@
 You can also add your application to the bot itself to quickly populate the response database and directly test it.
 ## Plugins
 
-`log.php` : log console plugin.
-`aiml_editor.php` : plugin for editing the AIML file.
-`bot_editor.php` : plugin for editing `bot.php`
+- `log.php` : log console plugin.
+- `aiml_editor.php` : plugin for editing the AIML file.
+- `bot_editor.php` : plugin for editing `bot.php`
 
 ## How the bot works
 
