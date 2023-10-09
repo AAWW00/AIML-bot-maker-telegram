@@ -90,7 +90,7 @@ The bot and application code is licensed under the GNU GPL. The file ```demo.aim
 We can include your plugins in the main repository, and we can add your bots to this page.
 
 ## Author
-## [Abadir](https://t.me/aba_dir)
+### [Abadir](https://t.me/aba_dir)
 
 ## TO DO
 - Syntax highlighting in the editor plugin
