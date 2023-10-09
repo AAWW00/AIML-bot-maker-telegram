@@ -5,6 +5,7 @@
 This bot and MiniApp are designed to easily create telegram bots from the application
 
 This repository contains all the necessary scripts for operation.
+
 ### Brief description of files
 
 - `config.php`: file containing settings for connecting your bot to telegrams.
