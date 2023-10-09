@@ -10,7 +10,7 @@ This repository contains all the necessary scripts for operation.
 
 - `config.php`: file containing settings for connecting your bot to telegrams.
 - `bot.php`: bot.
-- `demo.aiml`: a file with your database needed to understand the questions and answers. More information about the specification can be found [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiv7a6hkumBAxVWIBAIHaJsBKcQFnoECAoQAQ&url=https%3A%2F%2Fru.wikipedia .org%2Fwiki%2FAIML&usg=AOvVaw3PN-9Zu9JGpIUmV_d84MmF&opi=89978449).
+- `demo.aiml`: a file with your database needed to understand the questions and answers. More information about the specification can be found [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiv7a6hkumBAxVWIBAIHaJsBKcQFnoECAoQAQ&url=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2FAIML&usg=AOvVaw3PN-9Zu9JGpIUmV_d84MmF&opi=89978449).
 - `bot.log`: logging of interactions with the bot, it contains information about the user and question and answer.
 - `save_aiml.php`: a file that processes data from the application to write it into the AIML file.
 - `index.html`: application file.
