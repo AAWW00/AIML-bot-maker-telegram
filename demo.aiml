@@ -1,0 +1,46 @@
+<category>
+  <pattern>⛄️</pattern>
+  <template>☃️</template>
+</category>
+
+<category>
+  <pattern>🐒</pattern>
+  <template><random>
+    <li>🐵</li>
+    <li>🙈</li>
+    <li>🙉</li>
+    <li>🙊</li>
+  </random></template>
+</category>
+
+<category>
+  <pattern>🌚</pattern>
+  <template>🌝</template>
+</category>
+
+<category>
+  <pattern>❤️</pattern>
+  <template>❤️</template>
+</category>
+
+<category>
+  <pattern>Привет</pattern>
+  <template><random>
+    <li>куку</li>
+    <li>кукусеке</li>
+    <li>приветули</li>
+    <li>Хао!</li>
+    <li>дратути</li>
+  </random></template>
+</category>
+
+<category>
+  <pattern>Hi</pattern>
+  <template>hello!</template>
+</category>
+
+<category>
+  <pattern>/start</pattern>
+  <template>Hello 👋 I bot 🤖 maker!</template>
+</category>
+
