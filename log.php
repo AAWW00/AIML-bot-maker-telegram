@@ -9,7 +9,6 @@
 	<button type="button" onclick="document.location='index.html'" class="backmenu-button">menu 📰</button>
 </head>
 <body>
-	<button type="button" onclick="document.location='index.html'" class="backmenu-button">menu 📰</button>
 <div class="form">
 	<table class="log-table" id="log-table">
 		<tbody id="log-container">
