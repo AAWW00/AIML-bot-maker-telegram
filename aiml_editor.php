@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<link rel="stylesheet" href="style.css">
 	<!-- menu button -->
-	<button type="button" onclick="document.location='index.html'" class="backmenu-button">menu</button>
+	<button type="button" onclick="document.location='index.html'" class="backmenu-button">menu 📰</button>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 ?>
 
 <form method="post">
-	<textarea name="aiml_content" placeholder="You AIML code" class="editor"><?php
+	<textarea name="aiml_content" placeholder="You AIML code 🖋" class="editor"><?php
 	if (file_exists($file_path)) {
 		echo htmlspecialchars(file_get_contents($file_path));
 	}
