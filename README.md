@@ -53,7 +53,7 @@ You can also add your application to the bot itself to quickly populate the resp
 The bot uses the popular AIML chatbot markup language, which allows you to define questions (pattern) and answers (template).
 
 
-### Teams
+### Comands
 
 You can use /commands directly from the AIML file.
 Instructions for use
