@@ -93,9 +93,9 @@ We can include your plugins in the main repository, and we can add your bots to 
 ### [Abadir](https://t.me/aba_dir)
 
 ## TO DO
-- Syntax highlighting in the editor plugin
+- Syntax highlighting in the editor plugin `Soon`
 - Plugin designer
 - Bot control panel
-- Supports multiple patterns
+- Supports multiple patterns `Soon`
 ## Support
 You can support the project financially [here](https://yoomoney.ru/fundraise/ibz6AQOYJ8Y.231009)
